@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Cricket',
       home: BlocProvider(
-        builder: (context) => ArticleBloc(repository: ArticleRepositoryImpl()),
+        create: (context) => ArticleBloc(repository: ArticleRepositoryImpl()),
         child: HomePage(),
       ),
     );

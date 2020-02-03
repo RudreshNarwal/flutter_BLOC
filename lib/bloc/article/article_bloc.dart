@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:bloc/bloc.dart';
 import 'package:boring_flutter_app/bloc/article/article_event.dart';
 import 'package:boring_flutter_app/bloc/article/article_state.dart';
@@ -12,7 +14,6 @@ class ArticleBloc extends Bloc<ArticleEvent, ArticleState> {
   ArticleBloc({@required this.repository});
 
   @override
-  // TODO: implement initialState
   ArticleState get initialState => ArticleInitialState();
 
   @override

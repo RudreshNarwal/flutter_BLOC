@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:boring_flutter_app/data/model/api_result_model.dart';
 import 'package:boring_flutter_app/res/strings/strings.dart';
 import 'package:http/http.dart' as http;

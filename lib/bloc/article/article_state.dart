@@ -6,35 +6,31 @@ abstract class ArticleState extends Equatable {}
 
 class ArticleInitialState extends ArticleState {
   @override
-  // TODO: implement props
   List<Object> get props => [];
 }
 
 class ArticleLoadingState extends ArticleState {
   @override
-  // TODO: implement props
   List<Object> get props => [];
 }
 
 class ArticleLoadedState extends ArticleState {
 
-  List<Articles> articles;
+  final List<Articles> articles;
 
   ArticleLoadedState({@required this.articles});
 
   @override
-  // TODO: implement props
   List<Object> get props => [articles];
 }
 
 class ArticleErrorState extends ArticleState {
 
-  String message;
+  final String message;
 
   ArticleErrorState({@required this.message});
 
   @override
-  // TODO: implement props
   List<Object> get props => [message];
 }
 

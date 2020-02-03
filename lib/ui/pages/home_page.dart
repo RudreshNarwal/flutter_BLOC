@@ -68,6 +68,7 @@ class _HomePageState extends State<HomePage> {
                       } else if (state is ArticleErrorState) {
                         return buildErrorUi(state.message);
                       }
+                      return (null);
                     },
                   ),
                 ),

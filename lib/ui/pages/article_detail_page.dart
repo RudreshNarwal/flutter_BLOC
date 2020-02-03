@@ -2,7 +2,7 @@ import 'package:boring_flutter_app/data/model/api_result_model.dart';
 import 'package:flutter/material.dart';
 
 class ArticleDetailPage extends StatelessWidget {
-  Articles article;
+  final Articles article;
 
   ArticleDetailPage({this.article});
 
