@@ -28,5 +28,4 @@ class ArticleBloc extends Bloc<ArticleEvent, ArticleState> {
       }
     }
   }
-
 }
